@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="homepage_bookstore.css">
+    <style>
+        body 
+        h1 {
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+            
+        margin-block-end: 0.67em;
+        margin-inline-start: 65px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        unicode-bidi: isolate;
+        }
+        
+        
+        {
+            background-image: url('login bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0 20px;
+        }
+        .options-container {
+            background-color: rgb(192 167 42 / 39%);
+            border-radius: 100px;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 355px;
+            align-self: center;
+        }
+        .option {
+            margin-bottom: 20px;
+        }
+        .option h2 {
+            margin-top: 0;
+        }
+        .option p {
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #afa04c;
+            color: rgb(0, 0, 0);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Bookstore</h1>
+    </header>
+    <main>
+        <div class="options-container">
+            <div class="option">
+                <h2>Browse Catalogue</h2>
+                <p>Explore our vast collection of books</p>
+                <a href="http://127.0.0.1:5502/catalogue.html" class="btn">Browse</a>
+            </div>
+            <div class="option">
+                <h2>Login</h2>
+                <p>Already have an account?</p>
+                <a href="http://127.0.0.1:5502/loginpage.html" class="btn">Login</a>
+            </div>
+            <div class="option">
+                <h2>Register</h2>
+                <p>New to our bookstore?</p>
+                <a href="http://127.0.0.1:5502/register.html" class="btn">Register</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

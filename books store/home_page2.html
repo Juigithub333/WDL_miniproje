@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="homepage_bookstore.css">
+    <style>
+        body {
+            background-image: url('bg2.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        .heading {
+            margin-top: 20px;
+            text-align: center;
+            color: white;
+        }
+        .options-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+        .option {
+            margin-bottom: 20px;
+        }
+        .option h2 {
+            margin-top: 0;
+        }
+        .option p {
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header class="heading">
+        <h1>Welcome to Bookstore</h1>
+    </header>
+    <div class="container">
+        <main>
+            <div class="options-container">
+                <div class="option">
+                    <h2>Browse Catalogue</h2>
+                    <p>Explore our vast collection of books</p>
+                    <a href="catalogue_page.html" class="btn">Browse</a>
+                </div>
+                <div class="option">
+                    <h2>Login</h2>
+                    <p>Already have an account?</p>
+                    <a href="login.html" class="btn">Login</a>
+                </div>
+                <div class="option">
+                    <h2>Register</h2>
+                    <p>New to our bookstore?</p>
+                    <a href="registeration_page.html" class="btn">Register</a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; Rutuja's Bookstore. All rights reserved.</p>
+    </footer>
+</body>
+</html>
