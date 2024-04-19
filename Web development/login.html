@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>login page</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    background-image: url('login bg.jpg');
+    background-size: cover;
+  }
+
+  .login-box {
+    width: 400px;
+    padding: 20px;
+    background-color: #0c0c0cc9;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(186, 76, 76, 0.1);
+  }
+
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .login-box input[type="text"],
+  .login-box input[type="email"],
+  .login-box input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 3px solid #f7ca08;
+    border-radius: 18px;
+    box-sizing: border-box;
+  }
+
+  .login-box input[type="submit"] {
+    width: 100%;
+    background-color: #f7ca08;
+    color: #0c0c0c;
+    border: none;
+    padding: 10px;
+    border-radius: 11px;
+    cursor: pointer;
+  }
+
+  .login-box input[type="submit"]:hover {
+    background-color: #ae8e0c;
+  }
+
+  img{
+    size: 100;
+    padding: 90px;
+  }
+
+  h2{
+    color: rgba(245, 205, 44, 0.86);
+  }
+</style>
+</head>
+<body>
+
+<div class="login-box">
+  <h2>Login </h2>
+  <form action="#">
+    <input type="email" name="email" placeholder="Email" required><br>
+    <input type="text" name="name" placeholder="Name" required><br>
+    <input type="tel" name="phone" placeholder="Phone Number" required><br>
+    <input type="text" name="address" placeholder="Address" required><br>
+    <input type="submit" value="Login">
+  </form>
+</div>
+
+</body>
+</html>

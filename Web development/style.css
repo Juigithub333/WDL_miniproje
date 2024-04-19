@@ -1,0 +1,108 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  #video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    background-size: cover;
+    transition: 1s opacity;
+  }
+  
+  .options {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    list-style: none;
+  }
+  
+  .options li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .options a {
+    color: #eadf05;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: #0a0a0a;
+  }
+  
+  .options a:hover {
+    background-color: #f58e08;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1000;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    color: rgb(241, 186, 22);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #df550a;
+  }
+  
+  /* Existing CSS styles... */
+
+.feedback-container {
+    position: absolute;
+    top: 800px;
+    left: 30px;
+    z-index: 1000;
+    color: #fff;
+  }
+  
+  .feedback-list {
+    max-height: 200px; /* Adjust height as needed */
+    overflow-y: auto; /* Add scrollbar if needed */
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .feedback-list::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .feedback-list::-webkit-scrollbar-thumb {
+    background-color: #f58e08;
+    border-radius: 4px;
+  }
+  
+  .feedback-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-item {
+    margin-bottom: 48px;
+  }
+  

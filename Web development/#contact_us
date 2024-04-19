@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact_block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -39rem;
+    margin-top: 70px;
+    overflow-y: hidden; 
+    
+}
+.container {
+    display: block;
+    padding-top: 25px;
+    width: 120%; /* Adjust width as needed */
+    margin: 10px;
+    background-color: #f9f9f9;
+    border-radius: 48px;
+    text-align: center;
+    box-shadow: 0 4px 28px rgba(131, 10, 10, 0.1);
+    margin-bottom: 6rem;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.container h2 {
+    margin-bottom: 5px;
+    padding-top: -90rem;
+
+}
+
+.container p {
+    margin-bottom: 10px;
+}
+form{
+    height: 300px;
+}
+.contact-section{
+    padding-left: 490px;
+}
+.form{
+    padding-left: 5px;
+    margin-bottom: 180px;
+}
+.input{
+    margin: 15px;
+    padding-left: 130px;
+    padding-right: 50px;
+    padding-top: 25px;
+    border-radius: 40px;
+    border: 1px;
+}
+.inputsub{
+    margin: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 40px;
+    border: none;
+    font-size: 15px;
+}
